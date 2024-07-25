@@ -1,13 +1,11 @@
-*,
+*
 *::before,
 *::after {
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
-
 :root {
-    font-family: "Handlee", cursive;
     --ff-primary: "Handlee", sans-serif;
     --ff-secondary: "Handlee", monospace;
 
@@ -16,7 +14,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #lightpink;
+    --clr-accent: #ec7acf;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -39,7 +37,11 @@ body {
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    line-height: 1.6;
+    line-height: 1;
+}
+
+section {
+    padding: 5em 2em;
 }
 
 img {
